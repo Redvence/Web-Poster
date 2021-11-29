@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@400;700&display=swap');
+p{
+  font-family: 'Caveat';
+  font-weight: normal;
+}
+h1, h2{
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+h3{
+  font-family: 'Montserrat';
+  font-weight: normal;
+}
+body {
+  background-color: #1C1C1C;
+  display: block;
+}
+.part1{
+  width: 1440px;
+  height: 1160px;
+}
+.name{
+  background: url('../img/name.svg');
+  width: 1440px;
+  height: 360px;
+}
+.text1{
+  font-size: 90px;
+  padding-top: 60px;
+  padding-left: 60px;
+}
+.shelf2{
+  margin-top: 800px;
+}
+.shelf1{
+  width: 520px;
+  height: 305px;
+  margin-top: 110px;
+}
+.tapesfirst{
+  position:relative;
+  width: 464px;
+  height: 175px;
+  margin-left: 10px;
+}
+.tape1{
+  background: url('../img/tape1.svg');
+  width: 275px;
+  height: 175px;
+  display: inline-block;
+}
+.date1{
+  text-align: center;
+  margin-top: 37px;
+}
+.date2{
+  text-align: center;
+  margin-top: 37px;
+}
+.tape2{
+  background: url('../img/tape2.svg');
+  width: 275px;
+  height: 175px;
+  margin-left: -90px;
+  display:inline-block;
+}
+.shelf1img{
+  background: url('../img/shelf1.svg');
+  width: 520px;
+  height: 40px;
+}
+.name1{
+  background: url('../img/name1.svg');
+  width: 290px;
+  height: 130px;
+  margin-top: -40px;
+  margin-left: 90px;
+}
+.text2{
+  font-size: 40px;
+  line-height: 40px;
+  padding: 20px;
+}
+.text3{
+  font-size: 29px;
+  line-height: 31px;
+  padding-top: 30px;
+  padding-left: 60px;
+}
