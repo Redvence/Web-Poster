@@ -26,18 +26,11 @@ body {
 }
 .name{
   background: url('../img/name.svg');
-  /* background-color: white;
-  border-color: black;
-  border-radius: 5px;
-  border-width: 5px;
-  border-style: inset; */
   width: 1440px;
   height: 360px;
 }
 .text1{
   font-size: 90px;
-  /* padding-top: 60px;
-  padding-left: 60px; */
   padding: 60px 60px 0px;
 }
 .shelf2{
@@ -50,7 +43,6 @@ body {
   display: block;
 }
 .tapesfirst{
-  position:relative;
   width: 464px;
   height: 175px;
   margin-left: 10px;
@@ -62,6 +54,18 @@ body {
   display: inline-block;
   position: relative;
   float: left;
+  animation-play-state: paused;
+}
+@keyframes tapes{
+  0% {top: 0px;}
+  50% {top:-30px;}
+  100% {top: 0px;}
+}
+.tapes:hover{
+  animation-name: tapes;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
 }
 .date1{
   text-align: center;
@@ -78,6 +82,7 @@ body {
   margin-left: -90px;
   display: inline-block;
   position: relative;
+  animation-play-state: paused;
 }
 .shelf1img{
   background: url('../img/shelf1.svg');
@@ -104,7 +109,7 @@ body {
 }
 .allbooks1{
   width: 622px;
-  height: 353px;
+  height: 352px;
   position: relative;
   display: inline-block;
   font-size: 0px;
@@ -127,6 +132,51 @@ body {
 }
 .book1{
 }
+.dateA1{
+  position: absolute;
+  left: 513px;
+  top: 156px;
+  width: 146px;
+  height: 45px;
+  transform: rotate(-90deg);
+  font-size: 36px;
+}
+.dateA2{
+  position: absolute;
+  left: 433px;
+  top: 156px;
+  width: 146px;
+  height: 45px;
+  transform: rotate(-90deg);
+  font-size: 36px;
+}
+.dateA3{
+  position: absolute;
+  left: 282px;
+  top: 156px;
+  width: 146px;
+  height: 45px;
+  transform: rotate(-65deg);
+  font-size: 36px;
+}
+.dateA4{
+  position: absolute;
+  left: 192px;
+  top: 156px;
+  width: 146px;
+  height: 45px;
+  transform: rotate(-65deg);
+  font-size: 36px;
+}
+.dateA5{
+  position: absolute;
+  left: 47px;
+  top: 172px;
+  width: 146px;
+  height: 45px;
+  transform: rotate(-50deg);
+  font-size: 36px;
+}
 .tvCD{
   width: 558px;
   height: 720px;
@@ -146,11 +196,94 @@ body {
   display: block;
   margin-left: -18px;
 }
+ .wiredisc1{
+  /* position: absolute;
+  width: 35px;
+  height: 265px;
+  left: 350px;
+  top: 260px; */
+  margin-left: 500px;
+  animation-name: wirediscs;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  position: relative;
+}
+@keyframes wirediscs{
+  0% {transform: rotateZ(20deg);}
+  50% {transform: rotateZ(-20deg);}
+  100% {transform: rotateZ(20deg)}
+  /* from {left: 0px;}
+  to {left: 100px;} */
+}
+.wiredisc2{
+  /* position: absolute;
+  width: 35px;
+  height: 505px;
+  left: 400px;
+  top: 130px; */
+}
 .booksalot{
-  float: right;
-  display: inline-block;
-  margin-top: -1200px;
-  /* background: url('../img/booksalot.svg');
-  height: 1155px;
-  width: 286px;  */
+  display: block;
+  width: 286px;
+  height: 1122px;
+  margin-top: -1125px;
+  margin-left: 1170px;
+}
+.booksalotseparate{
+  height: 33px;
+  width: 219px;
+}
+.booksalot1{
+  background: url('../img/booksalot1.svg');
+  margin-left: 13%;
+}
+.datebooks{
+  text-align: center;
+  padding: 7px;
+}
+.booksalot2{
+  background: url('../img/booksalot2.svg');
+  margin-left: 17%;
+}
+.booksalot3{
+  background: url('../img/booksalot3.svg');
+  margin-left: 17%;
+}
+.booksalot4{
+  background: url('../img/booksalot4.svg');
+  margin-left: 12%;
+}
+.booksalot5{
+  background: url('../img/booksalot5.svg');
+  margin-left: 0%;
+}
+.booksalot6{
+  background: url('../img/booksalot6.svg');
+  margin-left: 0%;
+}
+.booksalot7{
+  background: url('../img/booksalot7.svg');
+  margin-left: 7%;
+}
+.booksalot8{
+  background: url('../img/booksalot8.svg');
+  margin-left: 14%;
+}
+.booksalot9{
+  background: url('../img/booksalot9.svg');
+  margin-left: 7%;
+  animation-play-state: paused;
+}
+@keyframes booksalot{
+  0% { left: 0px; top: 0px;}
+  50% {left: -60px; top: 0px;}
+  100% {left: 0px; top: 0px;}
+}
+.booksalotseparate:hover{
+  animation-name: booksalot;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  position: relative;
+  animation-play-state: running;
 }
