@@ -185,8 +185,22 @@ body {
   margin-top: -375px;
   margin-left: -5px;
 }
-.tv{
+.tvshum{
+  width: 540px;
+  height: 460px;
   display: block;
+  background: url('../img/tv.svg');
+}
+.tv{
+}
+.shum{
+  width: 430px;
+  height: 350px;
+  margin: 50px;
+  border-radius: 5px;
+  border-color: black;
+  border-style: inset;
+  border-width: 5px;
 }
 .diskovod1{
   display: block;
@@ -197,35 +211,41 @@ body {
   margin-left: -18px;
 }
  .wiredisc1{
-  /* position: absolute;
+  position: absolute;
   width: 35px;
   height: 265px;
   left: 350px;
-  top: 260px; */
-  margin-left: 500px;
-  animation-name: wirediscs;
-  animation-duration: 3s;
+  top: 260px;
+  animation-name: wirediscs1;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-play-state: running;
-  position: relative;
 }
-@keyframes wirediscs{
-  0% {transform: rotateZ(20deg);}
-  50% {transform: rotateZ(-20deg);}
-  100% {transform: rotateZ(20deg)}
-  /* from {left: 0px;}
-  to {left: 100px;} */
+@keyframes wirediscs1{
+  0% {transform: rotateZ(4deg) translateX(-12px);}
+  50%  {transform: rotateZ(-4deg) translateX(12px);}
+  100% {transform: rotateZ(4deg) translateX(-12px);}
 }
 .wiredisc2{
-  /* position: absolute;
+  position: absolute;
   width: 35px;
   height: 505px;
   left: 400px;
-  top: 130px; */
+  top: 130px;
+  animation-name: wirediscs2;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
 }
+@keyframes wirediscs2{
+  0% {transform: rotateZ(-2deg) translateX(10px);}
+  50%  {transform: rotateZ(2deg) translateX(-10px);}
+  100% {transform: rotateZ(-2deg) translateX(10px);}
+}
+
 .booksalot{
   display: block;
-  width: 286px;
+  width: 270px;
   height: 1122px;
   margin-top: -1125px;
   margin-left: 1170px;
