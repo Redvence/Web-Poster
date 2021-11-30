@@ -25,12 +25,12 @@ body {
   height: 1160px;
 }
 .name{
-  /* background: url('../img/name.svg'); */
-  background-color: white;
+  background: url('../img/name.svg');
+  /* background-color: white;
   border-color: black;
   border-radius: 5px;
   border-width: 5px;
-  border-style: inset;
+  border-style: inset; */
   width: 1440px;
   height: 360px;
 }
@@ -38,7 +38,7 @@ body {
   font-size: 90px;
   /* padding-top: 60px;
   padding-left: 60px; */
-  padding: 4%;
+  padding: 60px 60px 0px;
 }
 .shelf2{
   display:block;
@@ -99,7 +99,7 @@ body {
 .text3{
   font-size: 29px;
   line-height: 31px;
-  padding-top: 30px;
+  padding-top: 27px;
   padding-left: 60px;
 }
 .allbooks1{
@@ -140,7 +140,7 @@ body {
 }
 .diskovod1{
   display: block;
-  margin-left: -51px;
+  margin-left: 51px;
 }
 .diskovod2{
   display: block;
@@ -149,5 +149,8 @@ body {
 .booksalot{
   float: right;
   display: inline-block;
-  margin-top: -1158px;
+  margin-top: -1200px;
+  /* background: url('../img/booksalot.svg');
+  height: 1155px;
+  width: 286px;  */
 }
