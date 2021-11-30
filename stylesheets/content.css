@@ -14,30 +14,40 @@ h3{
   font-weight: normal;
 }
 body {
+  width: 1440px;
+  height: 3150px;
   background-color: #1C1C1C;
-  display: block;
+  position: relative;
+  display: inline-block;
 }
 .part1{
   width: 1440px;
   height: 1160px;
 }
 .name{
-  background: url('../img/name.svg');
+  /* background: url('../img/name.svg'); */
+  background-color: white;
+  border-color: black;
+  border-radius: 5px;
+  border-width: 5px;
+  border-style: inset;
   width: 1440px;
   height: 360px;
 }
 .text1{
   font-size: 90px;
-  padding-top: 60px;
-  padding-left: 60px;
+  /* padding-top: 60px;
+  padding-left: 60px; */
+  padding: 4%;
 }
 .shelf2{
-  margin-top: 800px;
+  display:block;
 }
 .shelf1{
   width: 520px;
   height: 305px;
   margin-top: 110px;
+  display: block;
 }
 .tapesfirst{
   position:relative;
@@ -50,6 +60,8 @@ body {
   width: 275px;
   height: 175px;
   display: inline-block;
+  position: relative;
+  float: left;
 }
 .date1{
   text-align: center;
@@ -64,7 +76,8 @@ body {
   width: 275px;
   height: 175px;
   margin-left: -90px;
-  display:inline-block;
+  display: inline-block;
+  position: relative;
 }
 .shelf1img{
   background: url('../img/shelf1.svg');
@@ -88,4 +101,53 @@ body {
   line-height: 31px;
   padding-top: 30px;
   padding-left: 60px;
+}
+.allbooks1{
+  width: 622px;
+  height: 353px;
+  position: relative;
+  display: inline-block;
+  font-size: 0px;
+}
+.book{
+  display: inline-block;
+  margin: 0px;
+}
+.book5{
+  margin-left: -23px;
+}
+.book4{
+  margin-left: -110px;
+}
+.book3{
+  margin-left: -133px;
+}
+.book2{
+  margin-left: -2px;
+}
+.book1{
+}
+.tvCD{
+  width: 558px;
+  height: 720px;
+  display: inline-block;
+  position: relative;
+  margin-top: -375px;
+  margin-left: -5px;
+}
+.tv{
+  display: block;
+}
+.diskovod1{
+  display: block;
+  margin-left: -51px;
+}
+.diskovod2{
+  display: block;
+  margin-left: -18px;
+}
+.booksalot{
+  float: right;
+  display: inline-block;
+  margin-top: -1158px;
 }
