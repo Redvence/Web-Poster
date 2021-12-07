@@ -20,14 +20,17 @@ body {
   position: relative;
   display: inline-block;
 }
+.borderline{
+  border-radius: 5px;
+  outline: 5px solid black;
+  outline-offset: -5px;
+}
 .part1{
-  width: 1440px;
-  height: 1160px;
 }
 .name{
-  background: url('../img/name.svg');
   width: 1440px;
   height: 360px;
+  background-color: white;
 }
 .text1{
   font-size: 90px;
@@ -35,6 +38,9 @@ body {
 }
 .shelf2{
   display:block;
+  width: 1440px;
+  height: 40px;
+  background-color: white;
 }
 .shelf1{
   width: 520px;
@@ -84,17 +90,19 @@ body {
   position: relative;
   animation-play-state: paused;
 }
-.shelf1img{
-  background: url('../img/shelf1.svg');
+.shelff{
   width: 520px;
   height: 40px;
+  background-color: white;
+  position: relative;
 }
 .name1{
-  background: url('../img/name1.svg');
   width: 290px;
   height: 130px;
   margin-top: -40px;
   margin-left: 90px;
+  background-color: white;
+  position: relative;
 }
 .text2{
   font-size: 40px;
@@ -189,18 +197,13 @@ body {
   width: 540px;
   height: 460px;
   display: block;
-  background: url('../img/tv.svg');
-}
-.tv{
+  position: relative;
+  background-color: #3E3E3E;
 }
 .shum{
-  width: 430px;
-  height: 350px;
+  width: 440px;
+  height: 360px;
   margin: 50px;
-  border-radius: 5px;
-  border-color: black;
-  border-style: inset;
-  border-width: 5px;
 }
 .diskovod1{
   display: block;
@@ -241,69 +244,4 @@ body {
   0% {transform: rotateZ(-2deg) translateX(10px);}
   50%  {transform: rotateZ(2deg) translateX(-10px);}
   100% {transform: rotateZ(-2deg) translateX(10px);}
-}
-
-.booksalot{
-  display: block;
-  width: 270px;
-  height: 1122px;
-  margin-top: -1125px;
-  margin-left: 1170px;
-}
-.booksalotseparate{
-  height: 33px;
-  width: 219px;
-}
-.booksalot1{
-  background: url('../img/booksalot1.svg');
-  margin-left: 13%;
-}
-.datebooks{
-  text-align: center;
-  padding: 7px;
-}
-.booksalot2{
-  background: url('../img/booksalot2.svg');
-  margin-left: 17%;
-}
-.booksalot3{
-  background: url('../img/booksalot3.svg');
-  margin-left: 17%;
-}
-.booksalot4{
-  background: url('../img/booksalot4.svg');
-  margin-left: 12%;
-}
-.booksalot5{
-  background: url('../img/booksalot5.svg');
-  margin-left: 0%;
-}
-.booksalot6{
-  background: url('../img/booksalot6.svg');
-  margin-left: 0%;
-}
-.booksalot7{
-  background: url('../img/booksalot7.svg');
-  margin-left: 7%;
-}
-.booksalot8{
-  background: url('../img/booksalot8.svg');
-  margin-left: 14%;
-}
-.booksalot9{
-  background: url('../img/booksalot9.svg');
-  margin-left: 7%;
-  animation-play-state: paused;
-}
-@keyframes booksalot{
-  0% { left: 0px; top: 0px;}
-  50% {left: -60px; top: 0px;}
-  100% {left: 0px; top: 0px;}
-}
-.booksalotseparate:hover{
-  animation-name: booksalot;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  position: relative;
-  animation-play-state: running;
 }

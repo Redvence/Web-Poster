@@ -1,3 +1,5 @@
 @import 'reset.css';
-@import 'content.css';
+@import 'firstshelf.css';
 @import 'responsive.css';
+@import 'books.css';
+@import 'secondshelf.css';

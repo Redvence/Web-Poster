@@ -1,0 +1,150 @@
+.shelf3{
+  display:block;
+  width: 1440px;
+  height: 40px;
+  background-color: white;
+  margin-top:-4px;
+}
+.disc1{
+  position: relative;
+  display: inline-block;
+  margin-left: -108px;
+  z-index:3;
+}
+.disc2{
+  position: relative;
+  display: inline-block;
+  margin-left: -120px;
+  z-index: 2;
+}
+.disc3{
+  position: relative;
+  display: inline-block;
+  margin-left: -120px;
+  z-index: 1;
+}
+.disc4{
+  position: relative;
+  display: inline-block;
+  margin-left: -120px;
+  z-index: 0;
+}
+.schbooks{
+  display: inline-block;
+  margin-left: -4px;
+}
+.schbook{
+  width: 416px;
+  height: 36px;
+  display: block;
+}
+.sch1{
+  background-color: #1F3E8F;
+}
+.sch2{
+  background-color: #F9E5CC;
+}
+.sch3{
+  background-color: #4898A7;
+}
+.cltxt{
+  position: absolute;
+  transform: rotate(-90deg);
+  padding:  9px 20px;
+  font-size: 24px;
+}
+.disc5{
+  position: relative;
+  display: inline-block;
+  margin-left: -4px;
+  z-index: 4;
+}
+.disc6{
+  position: relative;
+  display: inline-block;
+  margin-left: -120px;
+  z-index: 3;
+}
+.disc7{
+  position: relative;
+  display: inline-block;
+  margin-left: -120px;
+  z-index: 2;
+}
+.disc8{
+  position: relative;
+  display: inline-block;
+  margin-left: -120px;
+  z-index: 1;
+}
+.disc9{
+  position: relative;
+  display: inline-block;
+  margin-left: -120px;
+  z-index: 0;
+}
+.monitor{
+  position: relative;
+  display: block;
+  width: 480px;
+  height: 378px;
+  background-color: #DADADA;
+}
+.xp{
+  width: 392px;
+  height: 290px;
+  margin: 44px;
+}
+.sch4{
+  position: relative;
+  display: block;
+  background-color: #1F3E8F;
+}
+.pcbook{
+  position: relative;
+  display: inline-block;
+  margin-left: -4px;
+}
+.allbooks2{
+  display: inline-block;
+}
+.schbook1{
+  height: 416px;
+  width: 36px;
+  display: inline-block;
+  margin-left: -4px;
+}
+.sch5{
+  position: absolute;
+  display: inline-block;
+  transform: rotate(-25deg);
+  background-color: #1F3E8F;
+  margin-left: 84px;
+  margin-top: 13px;
+}
+.cltxt2{
+  position: absolute;
+  padding: 20px 9px;
+  font-size: 24px;
+}
+.cltxt3{
+  position: absolute;
+  padding: 20px 5px;
+  font-size: 24px;
+}
+.cltxt4{
+  position: absolute;
+  padding: 20px 5px;
+  font-size: 24px;
+}
+.tape3{
+  display:inline-block;
+  position: relative;
+  margin-left: 112px;
+}
+.tape3txt{
+  position: absolute;
+  transform: rotate(46.34deg);
+  margin-left: 157px;
+  margin-top: 122px;
+}

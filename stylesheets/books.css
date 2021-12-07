@@ -1,0 +1,134 @@
+.kek {
+  position: relative;
+  height: 33px;
+  width: 219px;
+  background-color: white;
+  display: block;
+}
+.booksalot{
+  display: block;
+  width: 270px;
+  height: 1122px;
+  margin-top: -1125px;
+  margin-left: 1170px;
+}
+.bli{
+  height: 33px;
+  width: 190px;
+  margin-left: 14.5px;
+}
+.txtbooksalot{
+  text-align: center;
+  padding: 7px;
+}
+@keyframes booksalot{
+  0% { left: 0px; top: 0px;}
+  50% {left: -60px; top: 0px;}
+  100% {left: 0px; top: 0px;}
+}
+.kek:hover{
+  animation-name: booksalot;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  position: relative;
+  animation-play-state: running;
+}
+.booksalot1{
+  margin-left: 36px;
+}
+.booksalot2{
+  margin-left: -9px;
+}
+.booksalot3{
+  margin-left: 50px;
+}
+.booksalot4{
+  margin-left: 36px;
+}
+.booksalot5{
+  margin-left: 0px;
+}
+.booksalot6{
+  margin-left: 0px;
+}
+.booksalot7{
+  margin-left: 22px;
+}
+.booksalot8{
+  margin-left: 42px;
+}
+.booksalot9{
+  margin-left: 22px;
+}
+.booksalotinner1{
+  background-color: #81A09A
+}
+.booksalotinner2{
+  background-color: #C99FAB;
+}
+.booksalotinner3{
+  background-color: #EFB4B6;
+}
+.booksalotinner4{
+  background-color: #D69F5C;
+}
+.booksalotinner5{
+  background-color: #CE5945;
+}
+.booksalotinner6{
+  background-color: #612628;
+}
+.booksalotinner7{
+  background-color: #112130;
+}
+.booksalotinner8{
+  background-color: #2A4944;
+}
+.booksalotinner9{
+  background-color: #4B7166;
+}
+
+/* .booksalotseparate{
+  height: 33px;
+  width: 219px; */
+/* .booksalot1{
+  background: url('../img/booksalot1.svg');
+  margin-left: 13%;
+}
+.datebooks{
+  text-align: center;
+  padding: 7px;
+}
+.booksalot2{
+  background: url('../img/booksalot2.svg');
+  margin-left: 17%;
+}
+.booksalot3{
+  background: url('../img/booksalot3.svg');
+  margin-left: 17%;
+}
+.booksalot4{
+  background: url('../img/booksalot4.svg');
+  margin-left: 12%;
+}
+.booksalot5{
+  background: url('../img/booksalot5.svg');
+  margin-left: 0%;
+}
+.booksalot6{
+  background: url('../img/booksalot6.svg');
+  margin-left: 0%;
+}
+.booksalot7{
+  background: url('../img/booksalot7.svg');
+  margin-left: 7%;
+}
+.booksalot8{
+  background: url('../img/booksalot8.svg');
+  margin-left: 14%;
+}
+.booksalot9{
+  background: url('../img/booksalot9.svg');
+  margin-left: 7%;
+  animation-play-state: paused;
+} */
