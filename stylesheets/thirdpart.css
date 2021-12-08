@@ -24,7 +24,7 @@
   position: relative;
   display: inline-block;
   float: right;
-  margin-top: 129px;
+  margin-top: 130px;
 }
 .smallbooks2{
   position: relative;
@@ -136,7 +136,7 @@
 }
 @keyframes kolonki{
   from { width: 190px; top: 0px; left: 0px; }
-  to { width: 230px; top: -20px; left: -20px;}
+  to { width: 220px; top: -15px; left: -15px;}
 }
 .shelf5{
   position: relative;
@@ -152,4 +152,5 @@
   width: 430px;
   height: 40px;
   background-color: white;
+  margin-top: -4px;
 }
