@@ -1,0 +1,155 @@
+.tapessecond{
+  position: relative;
+  display: inline-block;
+  margin-top: 190px;
+}
+.tape5{
+  position: relative;
+  display: inline-block;
+  margin-left: -70px;
+}
+.tape5txt{
+  position: absolute;
+  transform: rotate(90deg);
+  font-size: 20px;
+  margin-left: 200px;
+  margin-top: -150px;
+}
+.smallbooks{
+  display: inline-block;
+  float: right;
+  margin-right: 30px;
+}
+.small{
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-top: 129px;
+}
+.smallbooks2{
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+.music{
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+.smalltxt{
+  font-size: 14px;
+  line-height: 10px;
+  position: absolute;
+  transform: rotate(-90deg);
+}
+.smalltxt1{
+  margin-left: 110px;
+  margin-top: 285px;
+}
+.smalltxt2{
+  margin-left: 65px;
+  margin-top: 285px;
+}
+.smalltxt3{
+  margin-left: 45px;
+  margin-top: 305px;
+}
+.smalltxt4{
+  margin-left: -2px;
+  margin-top: 295px;
+}
+.smalltxt5{
+  margin-left: 5px;
+  margin-top: 305px;
+}
+.smalltxt6{
+  margin-left: 40px;
+  margin-top: 295px;
+}
+.button{
+  width: 20px;
+  height: 14px;
+  background-color: #DADADA;
+  position: absolute;
+}
+@keyframes buttons{
+  from { top: 0px; left:0px; }
+  to { top: 30px; left:0px; }
+}
+.kolonki{
+  width: 590px;
+  height: 335px;
+  float:right;
+  position: relative;
+}
+.b1{
+  margin-left: 243px;
+  margin-top: 127px;
+  animation: b1 2s infinite;
+}
+.b2{
+  margin-left: 271px;
+  margin-top: 127px;
+  animation: b2 1.5s infinite;
+}
+.b3{
+  margin-left: 299px;
+  margin-top: 127px;
+  animation: b3 3s infinite;
+}
+.b4{
+  margin-left: 327px;
+  margin-top: 127px;
+  animation: b4 2s infinite;
+}
+@keyframes b1{
+  0% { top: 0px; left:0px; }
+  50% { top: 30px; left: 0px;}
+  100% { top: 0px; left:0px; }
+}
+@keyframes b2{
+  0% { top: 37px; left:0px; }
+  50% { top: 5px; left: 0px;}
+  100% { top: 37px; left:0px; }
+}
+@keyframes b3{
+  0% { top: 0px; left:0px; }
+  50% { top: 15px; left: 0px;}
+  100% { top: 0px; left:0px; }
+}
+@keyframes b4{
+  0% { top: 30px; left:0px; }
+  50% { top: 0px; left: 0px;}
+  100% { top: 30px; left:0px; }
+}
+.kolonka1{
+  position: absolute;
+  margin-left: 16px;
+  margin-top: 127px;
+  animation: kolonki .4s infinite;
+}
+.kolonka2{
+  position: absolute;
+  margin-left: 383px;
+  margin-top: 127px;
+  animation: kolonki .4s infinite;
+}
+@keyframes kolonki{
+  from { width: 190px; top: 0px; left: 0px; }
+  to { width: 230px; top: -20px; left: -20px;}
+}
+.shelf5{
+  position: relative;
+  display: block;
+  width: 1000px;
+  height: 40px;
+  background-color: white;
+  float: right;
+}
+.shelf6{
+  position: relative;
+  display: block;
+  width: 430px;
+  height: 40px;
+  background-color: white;
+}

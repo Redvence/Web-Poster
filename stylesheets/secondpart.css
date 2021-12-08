@@ -107,6 +107,12 @@
 }
 .allbooks2{
   display: inline-block;
+  margin-left: -4px;
+}
+.schbookk{
+  height: 416px;
+  width: 36px;
+  display: inline-block;
 }
 .schbook1{
   height: 416px;
@@ -147,4 +153,51 @@
   transform: rotate(46.34deg);
   margin-left: 157px;
   margin-top: 122px;
+}
+.name2{
+  position: absolute;
+  width: 180px;
+  height: 130px;
+  background-color: white;
+  margin-left: 200px;
+  margin-top: 86px;
+}
+.name2txt{
+  position: relative;
+  font-size: 24px;
+  padding: 16px;
+}
+.name4{
+  position: absolute;
+  width: 400px;
+  height: 170px;
+  background-color: white;
+  margin-left: 890px;
+  margin-top: -40px;
+}
+.name4txt{
+  position: relative;
+  padding: 40px;
+  font-weight: bold;
+  font-size: 40px;
+}
+.name5{
+  position: absolute;
+  width: 160px;
+  height: 100px;
+  background-color: white;
+  margin-top: 316px;
+}
+.name5txt{
+  position: relative;
+  font-size: 24px;
+  padding: 14px;
+}
+.shelf4{
+  position: relative;
+  display: block;
+  width: 1280px;
+  height: 40px;
+  background-color: white;
+  margin-top: -4px;
 }
