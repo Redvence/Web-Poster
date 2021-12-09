@@ -163,8 +163,9 @@
   margin-top: 86px;
 }
 .name2txt{
+  line-height: 24px;
   position: relative;
-  font-size: 24px;
+  font-size: 32px;
   padding: 16px;
 }
 .name4{
@@ -190,7 +191,8 @@
 }
 .name5txt{
   position: relative;
-  font-size: 24px;
+  font-size: 32px;
+  line-height: 24px;
   padding: 14px;
 }
 .shelf4{
