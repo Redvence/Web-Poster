@@ -45,18 +45,28 @@ body {
   margin-top: 110px;
   display: block;
 }
-.tapesfirst{
-  width: 464px;
-  height: 175px;
-  margin-left: 10px;
-}
-.tape1{
-  background: url('../img/tape1.svg');
-  width: 275px;
-  height: 175px;
-  display: inline-block;
+.t1{
   position: relative;
-  float: left;
+  z-index: 0;
+}
+.t2{
+  position: relative;
+  margin-left: -85px;
+  z-index: 0;
+}
+.tapetxt1{
+  position: absolute;
+  z-index: 1;
+  margin: 37px 110px;
+}
+.tapetxt2{
+  z-index: 1;
+  position: absolute;
+  margin: 37px 20px;
+}
+.lol{
+  position: relative;
+  display: inline-block;
   animation-play-state: paused;
 }
 @keyframes tapes{
@@ -64,28 +74,11 @@ body {
   50% {top:-30px;}
   100% {top: 0px;}
 }
-.tapes:hover{
+.lol:hover{
   animation-name: tapes;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-play-state: running;
-}
-.date1{
-  text-align: center;
-  margin-top: 37px;
-}
-.date2{
-  text-align: center;
-  margin-top: 37px;
-}
-.tape2{
-  background: url('../img/tape2.svg');
-  width: 275px;
-  height: 175px;
-  margin-left: -90px;
-  display: inline-block;
-  position: relative;
-  animation-play-state: paused;
 }
 .shelff{
   width: 520px;

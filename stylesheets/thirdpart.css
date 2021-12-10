@@ -3,17 +3,37 @@
   display: inline-block;
   margin-top: 190px;
 }
-.tape5{
+.tape5ani{
   position: relative;
   display: inline-block;
   margin-left: -70px;
+  animation-play-state: paused;
+}
+.tape4{
+  animation-play-state: paused;
+  position: relative;
+}
+.tape5{
+
 }
 .tape5txt{
   position: absolute;
   transform: rotate(90deg);
   font-size: 20px;
-  margin-left: 200px;
+  margin-left: 90px;
   margin-top: -150px;
+}
+.tape5ani:hover{
+  animation-name: tapes;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+.tape4:hover{
+  animation-name: tapes;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
 }
 .smallbooks{
   display: inline-block;
@@ -159,6 +179,19 @@
   position: relative;
   margin-top: 50px;
   margin-left: 25px;
+  animation-play-state: paused;
+}
+.bb:hover{
+  animation-name: bookbottom;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  position: relative;
+  animation-play-state: running;
+}
+@keyframes bookbottom{
+  0% { left: 0px; top: 0px;}
+  50% {left: 30px; top: 0px;}
+  100% {left: 0px; top: 0px;}
 }
 .bb1{
   position: relative;
@@ -201,6 +234,7 @@
   margin-left: -80px;
 }
 .fullvinyl{
+  position: relative;
   display: inline-block;
 }
 .vinyl{
@@ -215,13 +249,42 @@
   margin-left: -157.5px;
 }
 .d1{
+  position: relative;
   z-index: -2;
+  animation: paused;
 }
 .d2{
+  position: relative;
   z-index: -4;
+  animation: paused;
 }
 .d3{
+  position: relative;
   z-index: -6;
+  animation: paused;
+}
+@keyframes vynilanimation{
+  0% {left: 0px;}
+  50% {left: 100px;}
+  100% {left: 0px;}
+}
+.full1:hover .d1{
+  animation-name: vynilanimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+.full2:hover .d2{
+  animation-name: vynilanimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+.full3:hover .d3{
+  animation-name: vynilanimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
 }
 .full1{
   position: relative;
@@ -287,12 +350,27 @@
   position: absolute;
   margin-left: 373px;
   margin-top: 100px;
+  animation: button 3s infinite running;
+}
+@keyframes button {
+  0% { transform: rotate(0deg); }
+  30% { transform: rotate(90deg);}
+  60% { transform: rotate(360deg);}
+  80% { transform: rotate(-40deg);}
+  90% { transform: rotate(70deg);}
+  100% { transform:rotate(0deg);}
 }
 .antena{
   position: absolute;
   margin-left: 40px;
   margin-top: -130px;
   z-index: -1;
+  animation: antena 3s infinite running;
+}
+@keyframes antena {
+  0% { transform: rotate(0deg) translateY(0px);}
+  50% { transform: rotate(-40deg) translateY(-120px);}
+  100% { transform: rotate(0deg) translateY(0px);}
 }
 .shelf8{
 background-color: white;
@@ -339,6 +417,12 @@ margin-top: -4px;
   margin-left: 475px;
   margin-top: -40px;
   z-index: 5;
+  animation: wire4 4s infinite;
+}
+@keyframes wire4{
+  0% {transform: rotateZ(2deg) translateX(-10px);}
+  50%  {transform: rotateZ(-2deg) translateX(10px);}
+  100% {transform: rotateZ(2deg) translateX(-10px);}
 }
 .wire5{
   position: absolute;
