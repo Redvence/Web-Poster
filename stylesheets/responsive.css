@@ -1,0 +1,62 @@
+@media only screen and (min-width: 1441px){
+  /* Desktop 1920px*/
+  /* body{
+    width: 1920px;
+  }
+  .name{
+    width: 1920px;
+    height: 396px;
+  }
+   .shelf1, .tvCD, .allbooks1, .booksalot{
+    transform: scale(1.1);
+  }
+  .shelf2, .shelf3, .shelf4, .shelf7{
+    height: 44px;
+    width: 1920px;
+  }
+  .shelf1{
+    margin-left: 26px;
+    margin-top: 135px;
+  }
+   .tvCD{
+  margin-left: 1046px;
+  margin-top: -381px
+  }
+  .booksalot{
+    margin-top: -1125px;
+    margin-right: 13px;
+  }
+  .shelf2{
+    margin-top: 33px;
+  }
+  .allbooks1{
+    margin-left: 367px;
+    margin-top: 10px;
+  }
+ */
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* iPad */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* iPad Portrait */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* iPad Landscape */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* iPhone */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  /* iPhone Portrait */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+  /* iPhone Landscape */
+}
+
+```
